@@ -11,6 +11,8 @@ Welcome to the NMFC, the top South indian football team in Newcastle Upon Tyne. 
 * Ability to contact the team.
 * Valuable content.
 ## Design Choices
+### Colour
+
 ## Wireframes
 ## Features
 ## Technologies used
