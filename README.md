@@ -13,6 +13,15 @@ Welcome to the NMFC, the top South indian football team in Newcastle Upon Tyne. 
 ## Design Choices
 ### Colour Scheme
 ![Colour Pallet](assets/images/colour-pallete-pp1.png)
+
+The colour scheme for the website has been decided is shown above. The reason these colours have been selected is to represent and match the colour scheme of the team kit. 
+
+| Colour  | Use |
+| ------  | --- |
+| #363732 | This colour will be used for the text and border colour for images. |
+| #F7A278 | This Colour will be used for styling of the contact form. |
+| #FAFFD8 | This colour will be used for the background and as contrasting text colour. |
+| #8D99AE | This colour will be used for the header, navigation and footer. |
 ## Wireframes
 ## Features
 ## Technologies used
