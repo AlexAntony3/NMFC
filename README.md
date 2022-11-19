@@ -10,6 +10,14 @@ Welcome to the NMFC, the top South indian football team in Newcastle Upon Tyne. 
 * Aesthetically pleasing. 
 * Ability to contact the team.
 * Valuable content.
+
+### User experience
+* From a user's perspective, I want to be able to navigate to any section of the website easily. 
+* From a user's perspective, I want to be able to contact the Team.
+* From a user's perspective, I want to be able to see the upcoming tournaments/ training sessions. 
+* From a user's perspective, I want to be able to be directed to the team social media. 
+* From a user's perspective, I want to be provided with information about the team and how it was founded.
+* From a user's perspective, I want to be able to see a gallery of photos of games as well as a team photo. 
 ## Design Choices
 ### Colour Scheme
 ![Colour Pallet](assets/images/colour-pallete-pp1.png)
