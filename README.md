@@ -27,6 +27,19 @@ Welcome to the NMFC, the top South indian football team in Newcastle Upon Tyne. 
 * Identify new people who want to join the team or join practise sessions.
 * Let supporters know of upcoming fixtures.
 * Attract potential sponsors to the team. 
+
+### Expectation
+* I expect all links in the website to work correctly. 
+* I expect all social media links to open in a new tab.
+* I expect the website to be inviting and keep them engaged
+* I expect users to be able to easily contact the team.
+* I expect the user to be able to see upcoming fixtures and tournaments.
+
+### Requirements
+* Tbere must be numerous pixtures of the team and especially a main picture of the entire team. 
+* The website must be minimalistic and modern.
+* When contacting the team, all required information must be filled in. If it is not, an error message must be supplied.
+* The pages must be consistent throughout. 
 ---
 ## Design
 ### Social Media Icons
@@ -79,6 +92,8 @@ These breakpoints were selected with the aid of information provided from [Lambd
 ---
 ## Testing
 ---
-## Deployments
+## Deploymentss
 ---
 ## Credits
+* Simen Daehlin - Mentoring and assistance
+
