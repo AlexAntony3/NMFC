@@ -5,6 +5,7 @@
 Welcome to the NMFC, the top South indian football team in Newcastle Upon Tyne. NMFC is made up of 11 20-30 year old men from a variety of professions such as dentists to hydrogeolists. This site offers an insight into the club, upcoming games/tournaments and provides contact information for the possibility to try out or support the up and coming team. 
 
 ## Table Of Contents
+---
 ## UX (user experience)
 ### Goals
 * Easy to navigate through the website and to social media.
@@ -26,6 +27,7 @@ Welcome to the NMFC, the top South indian football team in Newcastle Upon Tyne. 
 * Identify new people who want to join the team or join practise sessions.
 * Let supporters know of upcoming fixtures.
 * Attract potential sponsors to the team. 
+---
 ## Design
 ### Social Media Icons
 For the social media links, all icons was attained using [Fontawesome](https://fontawesome.com/ "Font Awesome"). This is because the icons are universally recognised and therefore the user would be able to navigate to the social media sites easily. The social media icons is present in the footer in all pages. 
@@ -49,9 +51,23 @@ The above image shows the colour scheme that has been decided for the website. I
 ### Logo
 The logo was created using [Photopea](https://www.photopea.com/ "Photopea"). I was able to create a simple and eyecatching logo. The logo also uses the Roboto Font for consistency, it is also coloured in #363732 to match the theme of the website. Furthermore, this logo will be present in all pages in the website in the header. 
 
+### Breakpoints
+3 breakpoints have been decided to be implemented into the website. 
+
+The breakpoints are as follows:
+* < 480 px for small screens.
+* \> 480 px for medium screens.
+* \> 1024 px for large screens.
+
+These breakpoints were selected with the aid of information provided from [Lambdatest](https://www.lambdatest.com/ "Lambdatest") an showed typical sizes of breakpoints that are utilised by modern websites. 
+
+---
 ## Wireframes
+---
 ## Features
+---
 ## Technologies used
+---
 ### Langugages
 * HTML5
 * CSS3
@@ -60,6 +76,9 @@ The logo was created using [Photopea](https://www.photopea.com/ "Photopea"). I w
 * [Coolers](https://coolors.co/)
 * [Photopea](https://www.photopea.com/ "Photopea")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
+---
 ## Testing
+---
 ## Deployments
+---
 ## Credits
