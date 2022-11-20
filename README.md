@@ -29,6 +29,7 @@ Welcome to the NMFC, the top South indian football team in Newcastle Upon Tyne. 
 For the social media links, all icons was attained using [Fontawesome](https://fontawesome.com/ "Font Awesome"). This is because the icons are universally recognised and therefore the user would be able to navigate to the social media sites easily. The social media icons is present in the footer in all pages. 
 ### Fonts
 
+
 ### Colour Scheme
 ![Colour Pallet](assets/images/colour-pallete-pp1.png)
 
