@@ -55,8 +55,11 @@ The logo was created using [Photopea](https://www.photopea.com/ "Photopea"). I w
 ### Langugages
 * HTML5
 * CSS3
-### Libraries
 ### Tools
+* [Fontawesome](https://fontawesome.com/ "Font Awesome")
+* [Coolers](https://coolors.co/)
+* [Photopea](https://www.photopea.com/ "Photopea")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
 ## Testing
 ## Deployments
 ## Credits
