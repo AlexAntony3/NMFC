@@ -45,6 +45,10 @@ The above image shows the colour scheme that has been decided for the website. I
 | #F7A278 | This Colour will be used for styling of the contact form. |
 | #FAFFD8 | This colour will be used for the background and as contrasting text colour. |
 | #8D99AE | This colour will be used for the header, navigation and footer. |
+
+### Logo
+The logo was created using [Photopea](https://www.photopea.com/ "Photopea"). I was able to create a simple and eyecatching logo. The logo also uses the Roboto Font for consistency, it is also coloured in #363732 to match the theme of the website. Furthermore, this logo will be present in all pages in the website in the header. 
+
 ## Wireframes
 ## Features
 ## Technologies used
