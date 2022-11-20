@@ -1,4 +1,6 @@
+![logo](assets/images/nmfc-logo.png) 
 # Newcastle Malayali Football Club (NMFC)
+
 ## Goals for this project
 Welcome to the NMFC, the top South indian football team in Newcastle Upon Tyne. NMFC is made up of 11 20-30 year old men from a variety of professions such as dentists to hydrogeolists. This site offers an insight into the club, upcoming games/tournaments and provides contact information for the possibility to try out or support the up and coming team. 
 
@@ -28,8 +30,10 @@ Welcome to the NMFC, the top South indian football team in Newcastle Upon Tyne. 
 ### Social Media Icons
 For the social media links, all icons was attained using [Fontawesome](https://fontawesome.com/ "Font Awesome"). This is because the icons are universally recognised and therefore the user would be able to navigate to the social media sites easily. The social media icons is present in the footer in all pages. 
 ### Fonts
+[Google Fonts](https://fonts.google.com/ "Google Fonts") was used to find the fonts that are used in the website. I decided that for this sports related webstite, Roboto is clear and sharp. 
 
 
+Header and navigational elements uses the Roboto medium 500 font and paragraph elements use the Roboto thin 300. Both the sizes of Roboto are complimentary to each other whilst still being able to see a clear difference between them. 
 ### Colour Scheme
 ![Colour Pallet](assets/images/colour-pallete-pp1.png)
 
