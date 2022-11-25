@@ -122,7 +122,7 @@ nav a:hover {
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
     .nav-extend-label {
         display: none;
     }
@@ -138,8 +138,21 @@ nav a:hover {
 
     nav {
         all: unset;
-        grid-column: 3 / 4;
+        grid-column: 3 / 5;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
+
+    nav ul {
+        display: flex;        
+    }
+
+    nav li {
+        margin-left: 2em;
+        margin-bottom: 0;
+    }
+    
 
     nav a {
         opacity: 1;
