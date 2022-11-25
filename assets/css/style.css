@@ -122,6 +122,17 @@ nav a:hover {
 }
 
 
-@media screen and (min-width: 320px) {
-    .nav
+@media screen and (min-width: 800px) {
+    .nav-extend-label {
+        display: none;
+    }
+
+    header  {
+        display: grid;
+        grid-template-columns: 1fr auto minmax (600px, 1fr) 1fr;
+    }
+
+    .logo {
+        grid-column: 2 / span 1;
+    }
 }
