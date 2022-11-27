@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 
 :root {
-    --nav-bg: rgba(250, 255, 216, .95);
+    --nav-bg: rgba(237, 183, 97, 1);
     --text-color: #363732;
 }
 
@@ -113,7 +113,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #F7A278;
+    color: #fff;
 }
 
 .nav-extend:checked~nav {
@@ -178,7 +178,7 @@ nav a:hover {
 
     /* animation effect */
     animation-name: main-zoom;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -191,6 +191,38 @@ nav a:hover {
     }
 
     to {
-        transform: scale(1.05);
+        transform: scale(1.03);
     }
+}
+
+/* fixtures button on main image */
+
+#fixtures-button {
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 300px;
+    height: 200 px;
+
+    padding: 1em;
+    margin: auto;
+
+    background-color: rgba(237, 183, 97, 0.5);
+    bottom: 180px;
+    left: 110px;
+
+    position: absolute;
+    text-align: center;
+}
+
+#fixtures-button a {
+    text-decoration: none;
+    color: #363732;
+}
+
+#fixtures-button a:hover {
+    text-decoration: none;
+    color: #fff
 }
