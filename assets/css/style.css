@@ -229,6 +229,10 @@ nav a:hover {
 
 /* about us page */
 
+h1 {
+    text-align: center;
+}
+
 .container {
     max-width: 100rem;
     margin-inline: auto;
@@ -253,8 +257,9 @@ nav a:hover {
     padding: 20px;
 }
 
-.manager-photo {
+.football-photos {
     width: 100%;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
+    overflow: hidden;
 }
