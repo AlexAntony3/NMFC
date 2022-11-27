@@ -2,10 +2,12 @@
 
 :root {
     --nav-bg: rgba(250, 255, 216, .95);
-    --text-color: #363732; 
+    --text-color: #363732;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -18,7 +20,8 @@ body {
 
 /* logo and headings */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: var(--text-color);
@@ -113,11 +116,11 @@ nav a:hover {
     color: #F7A278;
 }
 
-.nav-extend:checked ~ nav {
-    transform: scale(1,1);
+.nav-extend:checked~nav {
+    transform: scale(1, 1);
 }
 
-.nav-extend:checked ~ nav a {
+.nav-extend:checked~nav a {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
@@ -128,7 +131,7 @@ nav a:hover {
         display: none;
     }
 
-    header  {
+    header {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
@@ -146,14 +149,14 @@ nav a:hover {
     }
 
     nav ul {
-        display: flex;        
+        display: flex;
     }
 
     nav li {
         margin-left: 2em;
         margin-bottom: 0;
     }
-    
+
 
     nav a {
         opacity: 1;
@@ -169,6 +172,25 @@ nav a:hover {
 }
 
 #main-image {
+    height: auto;
     width: 100%;
     padding-top: 140px;
+
+    /* animation effect */
+    animation-name: main-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+/* create level of zoom for animation for main image */
+
+@keyframes main-zoom {
+    from {
+        transform: scale(1.0);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
 }
