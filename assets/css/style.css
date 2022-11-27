@@ -237,22 +237,24 @@ nav a:hover {
 
 .about-grid  {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2;
+    gap: 2rem;
+    grid-template-columns:
+        repeat(auto-fit, minmax(320px, 1fr))
 }
 
 .about-card {
-    border: 3px solid hotpink;
+
 }
 
 .about-us-content {
-    background-color: pink;
+    background-color: rgba(192, 199, 98, 0.5);
     align-self: end;
-    margin: 20px;
+    margin: 0;
     padding: 20px;
 }
 
 .manager-photo {
     width: 100%;
     aspect-ratio: 1 / 1;
+    border-radius: 50%;
 }
