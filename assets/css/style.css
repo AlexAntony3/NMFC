@@ -23,7 +23,7 @@ body {
 h1,
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 800;
     color: var(--text-color);
     letter-spacing: 2px;
 }
@@ -246,10 +246,6 @@ h1 {
         repeat(auto-fit, minmax(320px, 1fr))
 }
 
-.about-card {
-
-}
-
 .about-us-content {
     background-color: rgba(192, 199, 98, 0.5);
     align-self: end;
@@ -263,3 +259,6 @@ h1 {
     border-radius: 50%;
     overflow: hidden;
 }
+
+/* Matches Page */
+
