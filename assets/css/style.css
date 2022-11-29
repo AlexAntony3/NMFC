@@ -262,3 +262,38 @@ h1 {
 
 /* Matches Page */
 
+.table-container {
+    display: grid;
+    padding: 10px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+.table-span {
+    grid-column: span 2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgba(237, 183, 97, 1);
+    text-align: center;
+    padding: 1em;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: rgba(192, 199, 98, 0.5);
+    padding: 0.5em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+caption {
+    font-size: 20px;
+}
