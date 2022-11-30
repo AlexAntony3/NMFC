@@ -304,3 +304,13 @@ caption {
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
+
+.trophy {
+    grid-column-start: 3;
+    grid-row: 1 / span 3;
+    place-items: center;
+}
+
+.trophy img {
+    border-radius: 20%;
+}
