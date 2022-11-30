@@ -266,7 +266,8 @@ h1 {
     display: grid;
     padding: 10px;
     text-align: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr minmax(320px, 600px) 1fr;
+    max-width: 100rem;
     margin-inline: auto;
     padding-inline: 2rem;
 }
@@ -297,3 +298,9 @@ td {
 caption {
     font-size: 20px;
 }
+
+.loss {
+    background-color: #EF8275;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
