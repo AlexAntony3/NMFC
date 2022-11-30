@@ -239,7 +239,7 @@ h1 {
     padding-inline: 2rem;
 }
 
-.about-grid  {
+.about-grid {
     display: grid;
     gap: 2rem;
     grid-template-columns:
@@ -303,7 +303,9 @@ caption {
     background-color: #EF8275;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
 .trophy {
     grid-column-start: 3;
@@ -313,4 +315,22 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 .trophy img {
     border-radius: 20%;
+}
+
+@media (max-width: 1200px) {
+
+    .table-container {
+        display: grid;
+        padding: 10px;
+        text-align: center;
+        grid-template-columns: 1fr minmax(320px, 600px) 1fr;
+    }
+
+    .table-span {
+        grid-column: span 2;
+    }
+
+    .trophy {
+        display: none;
+    }
 }
