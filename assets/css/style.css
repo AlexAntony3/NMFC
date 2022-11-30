@@ -260,13 +260,19 @@ h1 {
     overflow: hidden;
 }
 
+@media (max-width: 800px) {
+    .about-grid {
+        grid-template-columns:
+        repeat(auto-fit, minmax(320px, 1fr))
+    }
+}
+
 /* Matches Page */
 
 .table-container {
     display: grid;
     padding: 10px;
     text-align: center;
-    grid-template-columns: 1fr minmax(320px, 600px) 1fr;
     max-width: 100rem;
     margin-inline: auto;
     padding-inline: 2rem;
@@ -317,7 +323,7 @@ tr:nth-child(even) {
     border-radius: 20%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
 
     .table-container {
         display: grid;
@@ -333,4 +339,4 @@ tr:nth-child(even) {
     .trophy {
         display: none;
     }
-}
+} 
