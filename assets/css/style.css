@@ -304,7 +304,7 @@ td {
 }
 
 caption {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .loss {
@@ -345,8 +345,41 @@ tr:nth-child(even) {
 
 /* contact us page */
 
-.football-pitch img {
+.contact-us-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 500px;
-    object-fit: cover;
+    height: 100%;
+    padding: 2rem 10rem;
 }
+
+.contact-us-container::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80rem;
+    background: url(../images/football-pitch.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(0.7rem);
+}
+
+.contact-us-box {
+    max-width: 90rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-us-right {
+    height: 100%;
+    background: url(../images/map.png);
+    background-size: cover;
+}
+
