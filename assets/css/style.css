@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 
+html {
+    font-size: 62.5%;
+}
 :root {
     --nav-bg: rgba(237, 183, 97, 1);
     --text-color: #363732;
@@ -16,6 +19,7 @@ body {
     font-weight: 300;
     color: #363732;
     margin: 0;
+    font-size: 1.6rem;
 }
 
 /* logo and headings */
@@ -343,7 +347,8 @@ tr:nth-child(even) {
 
 /* contact us page */
 
-#football-pitch {
-    background-image: url(../images/football-pitch.jpg);
-    
+.football-pitch img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
 }
