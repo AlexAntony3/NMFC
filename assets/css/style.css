@@ -110,7 +110,7 @@ nav li {
 nav a {
     color: #363732;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
@@ -202,20 +202,18 @@ nav a:hover {
 /* fixtures button on main image */
 
 #fixtures-button {
-    font-size: 150%;
+    font-size: 120%;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
+    font-weight: 900;
 
-    width: 300px;
-    height: 200px;
-
-    padding: 1em;
+    padding: 2rem;
     margin: auto;
 
     background-color: rgba(237, 183, 97, 0.5);
-    bottom: 180px;
-    left: 110px;
+    bottom: 12rem;
+    left: 4rem;
 
     position: absolute;
     text-align: center;
@@ -238,7 +236,7 @@ h1 {
 }
 
 .container {
-    max-width: 100rem;
+    max-width: 90%;
     margin-inline: auto;
     padding-inline: 2rem;
 }
@@ -247,14 +245,14 @@ h1 {
     display: grid;
     gap: 2rem;
     grid-template-columns:
-        repeat(auto-fit, minmax(320px, 1fr))
+        repeat(auto-fit, minmax(3.2rem, 1fr))
 }
 
 .about-us-content {
     background-color: rgba(192, 199, 98, 0.5);
     align-self: end;
     margin: 0;
-    padding: 20px;
+    padding: 2rem;
 }
 
 .football-photos {
@@ -275,9 +273,9 @@ h1 {
 
 .table-container {
     display: grid;
-    padding: 10px;
+    padding: 1rem;
     text-align: center;
-    max-width: 100rem;
+    max-width: 90%;
     margin-inline: auto;
     padding-inline: 2rem;
 }
