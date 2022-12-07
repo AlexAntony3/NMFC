@@ -365,7 +365,7 @@ tr:nth-child(even) {
     background: url(../images/football-pitch.jpg) no-repeat center;
     background-size: cover;
     z-index: -100;
-    filter: blur(0.2rem);
+    filter: blur(0.4rem);
 }
 
 .contact-us-box {
@@ -433,5 +433,21 @@ tr:nth-child(even) {
 
 .button:hover {
     background-color: var(--nav-bg);
+}
+
+/* media queries */
+
+@media screen and (max-width:900px) {
+    .contact-us-box {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-us-right {
+        height: 20rem;
+    }
+
+    .contact-us-container::after{
+        height: 100%;
+    }
 }
 
