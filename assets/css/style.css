@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 
-html {
-    font-size: 62.5%;
-}
+
 :root {
     --nav-bg: rgba(237, 183, 97, 1);
     --text-color: #363732;
 }
 
-*,
-*::before,
-*::after {
+* {
     box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
 }
 
 body {
@@ -32,17 +32,18 @@ h2 {
     letter-spacing: 2px;
 }
 
-.logo {
-    margin: 0;
-}
 
 /* navigation links */
 header {
     background: var(--nav-bg);
     text-align: center;
     position: fixed;
-    z-index: 2000;
     width: 100%;
+    z-index: 2000;
+}
+
+.logo {
+    margin: 0;
 }
 
 .nav-extend {
@@ -58,30 +59,16 @@ header {
     display: flex;
     align-items: center;
 }
-
-.nav-extend-label span,
-.nav-extend-label span::before,
-.nav-extend-label span::after {
-    display: block;
-    background: black;
-    height: 2px;
-    width: 2em;
-    border-radius: 2px;
-    position: relative;
-}
-
-.nav-extend-label span::before,
-.nav-extend-label span::after {
-    content: '';
+.bars-btn {
+    font-size: 30px;
     position: absolute;
-}
-
-.nav-extend-label span::before {
-    bottom: 7px;
-}
-
-.nav-extend-label span::after {
-    top: 7px;
+    top: 0;
+    right: 0;
+    margin-right: 1rem;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
 }
 
 nav {
@@ -89,7 +76,7 @@ nav {
     text-align: left;
     top: 100%;
     left: 0;
-    background: var(--background);
+    background: var(--nav-bg);
     width: 100%;
     transform: scale(1, 0);
     transform-origin: top;
@@ -103,17 +90,17 @@ nav ul {
 }
 
 nav li {
-    margin-bottom: 1em;
-    margin-left: 1em;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
 nav a {
     color: #363732;
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     opacity: 0;
-    transition: opacity 150ms ease-in-out;
+    transition: opacity 100ms ease-in-out;
 }
 
 nav a:hover {
@@ -126,11 +113,11 @@ nav a:hover {
 
 .nav-extend:checked~nav a {
     opacity: 1;
-    transition: opacity 250ms ease-in-out 250ms;
+    transition: opacity 300ms ease-in-out 250ms;
 }
 
 
-@media screen and (min-width: 600px) {
+/*@media screen and (min-width: 600px) {
     .nav-extend-label {
         display: none;
     }
@@ -165,7 +152,7 @@ nav a:hover {
     nav a {
         opacity: 1;
     }
-}
+}*/
 
 /* main image */
 
