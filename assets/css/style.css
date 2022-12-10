@@ -117,14 +117,14 @@ nav a:hover {
 }
 
 
-/*@media screen and (min-width: 600px) {
-    .nav-extend-label {
+@media screen and (min-width: 900px) {
+    .bars-btn {
         display: none;
     }
 
     header {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
     .logo {
@@ -133,7 +133,7 @@ nav a:hover {
 
     nav {
         all: unset;
-        grid-column: 3 / 5;
+        grid-column: 4 / 6;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -151,8 +151,27 @@ nav a:hover {
 
     nav a {
         opacity: 1;
+        position: relative;
     }
-}*/
+
+    nav a::after {
+        content: '';
+        display: block;
+        height: 5px;
+        background: #fff;
+        position: absolute;
+        top: 3rem;
+        right: 0;
+        left: 0;
+        transform: scale(0, 1);
+        transform-origin: right;
+        transition: transform ease-in-out 200ms;
+    }
+
+    nav a:hover::after {
+        transform: scale(1,1);
+    }
+}
 
 /* main image */
 
