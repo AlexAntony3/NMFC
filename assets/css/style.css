@@ -7,6 +7,8 @@
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -30,6 +32,9 @@ h2 {
     font-weight: 800;
     color: var(--text-color);
     letter-spacing: 2px;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
 }
 
 
@@ -237,9 +242,6 @@ nav a:hover {
 
 /* about us page */
 
-h1 {
-    text-align: center;
-}
 
 .container {
     max-width: 90%;
@@ -439,6 +441,16 @@ tr:nth-child(even) {
 
 .button:hover {
     background-color: var(--nav-bg);
+}
+/* Footer styling */
+
+footer {
+    background-color:#fff;
+    
+}
+
+footer a {
+    text-decoration: none;
 }
 
 /* media queries */
