@@ -446,13 +446,23 @@ tr:nth-child(even) {
 /* Footer styling */
 
 footer {
-    background-color:#fff;
-    
+    background-color: var(--nav-bg);
+    width: 100%;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-footer a {
+footer li {
     text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
+
+
+
 
 /* media queries */
 
