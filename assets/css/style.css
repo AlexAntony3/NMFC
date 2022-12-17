@@ -79,9 +79,8 @@ header {
 
 nav {
     position: absolute;
-    text-align: left;
+    text-align: right;
     top: 100%;
-    left: 0;
     background: var(--nav-bg);
     width: 100%;
     transform: scale(1, 0);
@@ -97,7 +96,7 @@ nav ul {
 
 nav li {
     margin-bottom: 1rem;
-    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 nav a {
@@ -135,12 +134,12 @@ nav a:hover {
     }
 
     .logo {
-        grid-column: 1 / span 2;
+        grid-column: 2;
     }
 
     nav {
         all: unset;
-        grid-column: 4 / 6;
+        grid-column: 5;
         display: flex;
         justify-content: flex-end;
         align-items: center;
