@@ -447,20 +447,36 @@ tr:nth-child(even) {
 
 footer {
     background-color: var(--nav-bg);
+    position: relative;
     width: 100%;
     padding: 1.5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-footer li {
-    text-decoration: none;
-    list-style-type: none;
-    text-align: center;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
+footer #socials {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer li {
+    list-style-type: none;
+    font-size: 5rem;
+}
+
+Footer li a {
+    text-decoration: none;
+    color: var(--text-color);
+    margin: 0 4rem;
+}
+
+footer li a:hover {
+    color: #fff;
+}
 
 
 
