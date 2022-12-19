@@ -185,6 +185,7 @@ nav a:hover {
     width: 100%;
     overflow: hidden;
     object-fit: cover;
+    position: relative;
 }
 
 #main-image {
@@ -224,11 +225,10 @@ nav a:hover {
     margin: auto;
 
     background-color: rgba(237, 183, 97, 0.5);
-    bottom: 12rem;
-    left: 4rem;
-
     position: absolute;
     text-align: center;
+    bottom: 30%;
+    left: 5%;
 }
 
 #fixtures-button a {
