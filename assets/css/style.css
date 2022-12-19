@@ -250,6 +250,10 @@ nav a:hover {
     padding-inline: 2rem;
 }
 
+.container p {
+    text-align: center;
+}
+
 .about-grid {
     display: grid;
     gap: 2rem;
@@ -481,8 +485,6 @@ Footer li a {
 footer li a:hover {
     color: #fff;
 }
-
-
 
 /* media queries */
 
