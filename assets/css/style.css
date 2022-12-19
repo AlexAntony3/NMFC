@@ -289,6 +289,10 @@ nav a:hover {
     padding-inline: 2rem;
 }
 
+caption {
+    padding: 1rem;
+}
+
 .table-span {
     grid-column: span 2;
 }
