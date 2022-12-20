@@ -77,14 +77,23 @@ These breakpoints were selected with the aid of information provided from [Lambd
 
 ---
 ## Wireframes
+To create the wireframe prototypes for a large, medium and small screens, Balsamiq was used. 
+The wireframes are shown below:
+
+[Large Screen](wireframes/balsamiq/desktop-view.png)
+
+[Medium Screen](wireframes/balsamiq/ipad-view.png)
+
+[Small Screen](wireframes/balsamiq/iphone-view.png)
+
 ---
 ## Features
 ---
 ## Technologies used
 ---
 ### Langugages
-* HTML5
-* CSS3
+* HTML
+* CSS
 ### Tools
 * [Fontawesome](https://fontawesome.com/ "Font Awesome")
 * [Coolers](https://coolors.co/)
