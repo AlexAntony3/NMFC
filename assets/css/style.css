@@ -122,94 +122,24 @@ nav a:hover {
     transition: opacity 300ms ease-in-out 250ms;
 }
 
-
-@media screen and (min-width: 900px) {
-    .bars-btn {
-        display: none;
-    }
-
-    header {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    }
-
-    .logo {
-        grid-column: 2;
-    }
-
-    nav {
-        all: unset;
-        grid-column: 5;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-    }
-
-    nav ul {
-        display: flex;
-    }
-
-    nav li {
-        margin-left: 2em;
-        margin-bottom: 0;
-    }
-
-
-    nav a {
-        opacity: 1;
-        position: relative;
-    }
-
-    nav a::after {
-        content: '';
-        display: block;
-        height: 5px;
-        background: #fff;
-        position: absolute;
-        top: 3rem;
-        right: 0;
-        left: 0;
-        transform: scale(0, 1);
-        transform-origin: right;
-        transition: transform ease-in-out 200ms;
-    }
-
-    nav a:hover::after {
-        transform: scale(1,1);
-    }
-}
-
 /* main image */
 
-#main-image-outer {
+.main-image-outer {
     width: 100%;
-    overflow: hidden;
     object-fit: cover;
     position: relative;
 }
 
-#main-image {
+.main-image {
     height: auto;
-    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     padding-top: 140px;
 
     /* animation effect */
     animation-name: main-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-}
-
-
-/* create level of zoom for animation for main image */
-
-@keyframes main-zoom {
-    from {
-        transform: scale(1.0);
-    }
-
-    to {
-        transform: scale(1.03);
-    }
 }
 
 /* fixtures button on main image */
@@ -275,13 +205,6 @@ nav a:hover {
     overflow: hidden;
 }
 
-@media (max-width: 800px) {
-    .about-grid {
-        grid-template-columns:
-        repeat(auto-fit, minmax(320px, 1fr))
-    }
-}
-
 /* Matches Page */
 
 .table-container {
@@ -342,23 +265,6 @@ tr:nth-child(even) {
     border-radius: 20%;
 }
 
-@media (max-width: 1000px) {
-
-    .table-container {
-        display: grid;
-        padding: 10px;
-        text-align: center;
-        grid-template-columns: 1fr minmax(320px, 600px) 1fr;
-    }
-
-    .table-span {
-        grid-column: span 2;
-    }
-
-    .trophy {
-        display: none;
-    }
-} 
 
 /* contact us page */
 
@@ -461,6 +367,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: auto;
 }
 
 footer #socials {
@@ -502,3 +409,95 @@ footer li a:hover {
     }
 }
 
+@media screen and (min-width: 900px) {
+    .bars-btn {
+        display: none;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .logo {
+        grid-column: 2;
+    }
+
+    nav {
+        all: unset;
+        grid-column: 5;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        margin-left: 2em;
+        margin-bottom: 0;
+    }
+
+
+    nav a {
+        opacity: 1;
+        position: relative;
+    }
+
+    nav a::after {
+        content: '';
+        display: block;
+        height: 5px;
+        background: #fff;
+        position: absolute;
+        top: 3rem;
+        right: 0;
+        left: 0;
+        transform: scale(0, 1);
+        transform-origin: right;
+        transition: transform ease-in-out 200ms;
+    }
+
+    nav a:hover::after {
+        transform: scale(1,1);
+    }
+}
+
+@media (max-width: 800px) {
+    .about-grid {
+        grid-template-columns:
+        repeat(auto-fit, minmax(320px, 1fr))
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .table-container {
+        display: grid;
+        padding: 10px;
+        text-align: center;
+        grid-template-columns: 1fr minmax(320px, 600px) 1fr;
+    }
+
+    .table-span {
+        grid-column: span 2;
+    }
+
+    .trophy {
+        display: none;
+    }
+} 
+
+/* create level of zoom for animation for main image */
+
+@keyframes main-zoom {
+    from {
+        transform: scale(1.0);
+    }
+
+    to {
+        transform: scale(1.03);
+    }
+}
