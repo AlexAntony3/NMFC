@@ -100,6 +100,8 @@ The wireframes are shown below:
 * [Photopea](https://www.photopea.com/ "Photopea")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Unsplash](https://unsplash.com/ "Unsplash")
+* [W3C Markup Validation](https://validator.w3.org/ "W3C Markup Validation")
+* [W3C CSS Validation](https://jigsaw.w3.org/css-validator/ "W3C CSS validation")
 ---
 ## Testing
 
