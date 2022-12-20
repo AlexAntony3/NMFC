@@ -133,12 +133,12 @@ nav a:hover {
 .main-image {
     height: auto;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
     padding-top: 140px;
 
     /* animation effect */
     animation-name: main-zoom;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
@@ -361,13 +361,13 @@ tr:nth-child(even) {
 
 footer {
     background-color: var(--nav-bg);
-    position: relative;
+    position: sticky;
     width: 100%;
     padding: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: auto;
+    top: 100vh;
 }
 
 footer #socials {
@@ -494,7 +494,7 @@ footer li a:hover {
 
 @keyframes main-zoom {
     from {
-        transform: scale(1.0);
+        transform: scale(1);
     }
 
     to {
