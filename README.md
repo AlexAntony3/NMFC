@@ -96,8 +96,11 @@ Testing was completed on the website post completion of all coding elements. Sev
 
 When conducting testing, the following issues were identified and resolved:
 
-* The initial item noted was that the selected colour theme was not working for the website. It had too much contrast and the colours were not matching with each other and hence, it was not aesthethically pleasing. I solved this by testing multiple colour schemes to identify which one was simple yet effective and I learnt that I didn't need to use too many colours and overcomplicate the website. Finally the colour scheme selected is in the colour scheme section above compared to the prior, #363732 #F7A278 #FAFFD8 #8D99AE.
+* The initial item noted was that the selected colour theme was not working for the website. It had too much contrast and the colours were not matching with each other and hence, it was not aesthethically pleasing. I solved this by testing multiple colour schemes to identify which one was simple yet effective and I learnt that I didn't need to use too many colours and overcomplicate the website. Finally the colour scheme selected is in the colour scheme section above.
 * Further testing and review showed that a hamburger icon is required for a modern true mobile/tablet responsive website. This was implemented and the user interface was has greatly improved. A more in-depth review was completed and it was noted for optimal navigational ease, it was best to add the hamburger on the right side instead of the left side.  
+* When the table was viewed on tablet/phone version, it webpage squished the picture of the trophy and eventually due to CSS grid would bring the picture under the table. However a solo picture of the trophy on the website didn't make sense and was also not effective. Therefore, I took the decision to remove the picture of the trophy in the mobile/tablet version. This produced a much better looking website. 
+* When hovering over the different fields in the contact form, there wasn't any indication that it was the field that the mouse was over. Therefore to solve this, I added a lighter tone than the box. This improved the user interface.
+* Only a hover effect was initially used over the navigation items. When I reviewed other webpages, i noticed that there was more of an indication that a nev element was hightlighted. I added a line underneath each section when highlighted for a better user interface.
 
 ---
 ## Deployments
