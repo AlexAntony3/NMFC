@@ -67,10 +67,11 @@ The logo was created using [Photopea](https://www.photopea.com/ "Photopea"). I w
 ### Breakpoints
 3 breakpoints have been decided to be implemented into the website. 
 
-The breakpoints are as follows:
-* < 480 px for small screens.
-* \> 480 px for medium screens.
-* \> 1024 px for large screens.
+|                |Size                             
+|----------------|-----------------------------
+|Small Screens|    < 480 px     
+|Medium Screens| > 480 px
+|Large Screens | > 1024 px
 
 These breakpoints were selected with the aid of information provided from [Lambdatest](https://www.lambdatest.com/ "Lambdatest") an showed typical sizes of breakpoints that are utilised by modern websites. 
 
