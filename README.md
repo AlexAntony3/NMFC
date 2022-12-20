@@ -14,7 +14,7 @@ Welcome to the NMFC, the top South indian football team in Newcastle Upon Tyne. 
 * Ability to contact the team.
 * Valuable content.
 
-### User's Needs
+### User's Stories
 * From a user's perspective, I want to be able to navigate to any section of the website easily. 
 * From a user's perspective, I want to be able to contact the Team.
 * From a user's perspective, I want to be able to see the upcoming tournaments/ training sessions. 
@@ -91,9 +91,25 @@ These breakpoints were selected with the aid of information provided from [Lambd
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 ---
 ## Testing
+Testing was completed on the website post completion of all coding elements. Several issues were noted to be working incorrectly when testing however as most of the issues were resolved; the overall outcome of the website fulfils the requirements set in the initial stages. 
 ---
-## Deploymentss
+## Deployments
+Post completion of coding, the project was added, committed and pushed to github. The github repository was made live completing the following steps:
+
+* Click on the project repository.
+* Then click on the settings section.
+* Then select pages under the code and automation section in the side navigation bar. 
+* Change the source to deplay from a brand.
+* Select the branch Main/ (root) and press save.
+* The website is live on the following link: https://alexantony3.github.io/project_1/
+* Any future changes can be completed by adding, committing and pushing updates to github
 ---
 ## Credits
-* Simen Daehlin - Mentoring and assistance
+* [Simen Daehlin](https://www.linkedin.com/in/simendaehlin/) - Assistance throughout the project
+* [Kevin Powell](https://www.youtube.com/@KevinPowell) - Navigation bar formatting and CSS grid 
+---
+## Inspirations
+* [Cardiff City FC](https://www.cardiffcityfc.co.uk/)
+* [Carlisle United FC](https://www.carlisleunited.co.uk/)
+* [Newcastle United FC](https://www.nufc.co.uk/)
 
