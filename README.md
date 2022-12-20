@@ -91,7 +91,14 @@ These breakpoints were selected with the aid of information provided from [Lambd
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 ---
 ## Testing
-Testing was completed on the website post completion of all coding elements. Several issues were noted to be working incorrectly when testing however as most of the issues were resolved; the overall outcome of the website fulfils the requirements set in the initial stages. 
+
+Testing was completed on the website post completion of all coding elements. Several issues were noted to be working incorrectly when testing however as most of the issues were resolved; the overall outcome of the website fulfils the requirements. The webstie covers all goals, user's stories, site owners goals, expectations. 
+
+When conducting testing, the following issues were identified and resolved:
+
+* The initial item noted was that the selected colour theme was not working for the website. It had too much contrast and the colours were not matching with each other and hence, it was not aesthethically pleasing. I solved this by testing multiple colour schemes to identify which one was simple yet effective and I learnt that I didn't need to use too many colours and overcomplicate the website. Finally the colour scheme selected is in the colour scheme section above compared to the prior, #363732 #F7A278 #FAFFD8 #8D99AE.
+* Further testing and review showed that a hamburger icon is required for a modern true mobile/tablet responsive website. This was implemented and the user interface was has greatly improved. A more in-depth review was completed and it was noted for optimal navigational ease, it was best to add the hamburger on the right side instead of the left side.  
+
 ---
 ## Deployments
 Post completion of coding, the project was added, committed and pushed to github. The github repository was made live completing the following steps:
