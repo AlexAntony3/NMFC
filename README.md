@@ -96,9 +96,10 @@ The wireframes are shown below:
 * CSS
 ### Tools
 * [Fontawesome](https://fontawesome.com/ "Font Awesome")
-* [Coolers](https://coolors.co/)
+* [Coolers](https://coolors.co/ "Coolors")
 * [Photopea](https://www.photopea.com/ "Photopea")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Unsplash](https://unsplash.com/ "Unsplash")
 ---
 ## Testing
 
