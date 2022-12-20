@@ -114,6 +114,7 @@ When conducting testing, the following issues were identified and resolved:
 * When the table was viewed on tablet/phone version, it webpage squished the picture of the trophy and eventually due to CSS grid would bring the picture under the table. However a solo picture of the trophy on the website didn't make sense and was also not effective. Therefore, I took the decision to remove the picture of the trophy in the mobile/tablet version. This produced a much better looking website. 
 * When hovering over the different fields in the contact form, there wasn't any indication that it was the field that the mouse was over. Therefore to solve this, I added a lighter tone than the box. This improved the user interface.
 * Only a hover effect was initially used over the navigation items. When I reviewed other webpages, i noticed that there was more of an indication that a nev element was hightlighted. I added a line underneath each section when highlighted for a better user interface.
+* When I used the markup validation an error was identified that stated "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed" as a heading is not required for the main image, the section element was changed to div. 
 
 ---
 ## Deployments
