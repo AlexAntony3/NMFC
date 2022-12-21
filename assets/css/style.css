@@ -21,7 +21,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: #363732;
+    color: var(--text-color);
     margin: 0;
     font-size: 1.6rem;
     min-height: 100vh;
@@ -103,7 +103,7 @@ nav li {
 }
 
 nav a {
-    color: #363732;
+    color: var(--text-color);
     text-decoration: none;
     font-size: 1.8rem;
     font-weight: 500;
@@ -149,7 +149,7 @@ nav a:hover {
 
 #fixtures-button a {
     text-decoration: none;
-    color: #363732;
+    color: var(--text-color);
 }
 
 #fixtures-button a:hover {
@@ -319,7 +319,7 @@ tr:nth-child(even) {
 .contact-info {
     width: 100%;
     padding: 0.7rem 1rem;
-    background-color: lightgrey;
+    background-color: rgb(211, 211, 211);
     outline: none;
     border-color: rgba(237, 183, 97, 0.4);
     font-size: 1.2rem;
