@@ -146,32 +146,6 @@ nav a:hover {
 
 /* fixtures button on main image */
 
-#fixtures-button {
-    font-size: 120%;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    font-weight: 900;
-
-    padding: 2rem;
-    margin: auto;
-
-    background-color: rgba(237, 183, 97, 0.5);
-    position: absolute;
-    text-align: center;
-    bottom: 30%;
-    left: 5%;
-}
-
-#fixtures-button a {
-    text-decoration: none;
-    color: #363732;
-}
-
-#fixtures-button a:hover {
-    text-decoration: none;
-    color: #fff
-}
 
 /* about us page */
 
@@ -465,6 +439,33 @@ footer li a:hover {
     nav a:hover::after {
         transform: scale(1,1);
     }
+
+    #fixtures-button {
+        font-size: 1.6rem;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-weight: 900;
+    
+        padding: 2rem;
+        margin: auto;
+    
+        background-color: rgba(237, 183, 97, 0.5);
+        position: absolute;
+        text-align: center;
+        bottom: 30rem;
+        left: 15rem;
+    }
+
+    #fixtures-button a {
+        text-decoration: none;
+        color: #363732;
+    }
+    
+    #fixtures-button a:hover {
+        text-decoration: none;
+        color: #fff
+    }
 }
 
 @media (max-width: 800px) {
@@ -474,7 +475,7 @@ footer li a:hover {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
 
     .table-container {
         display: grid;
@@ -488,6 +489,10 @@ footer li a:hover {
     }
 
     .trophy {
+        display: none;
+    }
+
+    #fixtures-button {
         display: none;
     }
 } 
