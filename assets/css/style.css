@@ -450,8 +450,9 @@ footer li a:hover {
         background-color: rgba(237, 183, 97, 0.5);
         position: absolute;
         text-align: center;
-        bottom: 30rem;
-        left: 15rem;
+        top: 45rem;
+        left: 8rem;
+        z-index: 100;
     }
 
     .contact-us-box {
