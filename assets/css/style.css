@@ -67,8 +67,9 @@ header {
     display: flex;
     align-items: center;
 }
+
 .bars-btn {
-    font-size:30px;
+    font-size: 30px;
     position: absolute;
     top: 0;
     right: 0;
@@ -76,7 +77,7 @@ header {
     display: flex;
     height: 100%;
     align-items: center;
-    
+
 }
 
 nav {
@@ -173,7 +174,7 @@ nav a:hover {
     display: grid;
     gap: 2rem;
     grid-template-columns:
-        repeat(auto-fit, minmax(3.2rem, 1fr))
+        1fr;
 }
 
 .about-us-content {
@@ -263,7 +264,7 @@ tr:nth-child(even) {
     padding: 20rem 5rem;
 }
 
-.contact-us-container::after{
+.contact-us-container::after {
     content: '';
     position: absolute;
     left: 0;
@@ -297,7 +298,7 @@ tr:nth-child(even) {
     padding: 2.5rem 4rem;
 }
 
-.contact-us-left h2{
+.contact-us-left h2 {
     position: relative;
     padding-bottom: 0.2rem;
     margin-bottom: 2rem;
@@ -342,6 +343,7 @@ tr:nth-child(even) {
 .button:hover {
     background-color: var(--nav-bg);
 }
+
 /* Footer styling */
 
 footer {
@@ -379,20 +381,6 @@ footer li a:hover {
 }
 
 /* media queries */
-
-@media screen and (max-width:900px) {
-    .contact-us-box {
-        grid-template-columns: 1fr;
-    }
-
-    .contact-us-right {
-        height: 20rem;
-    }
-
-    .contact-us-container::after{
-        height: 100%;
-    }
-}
 
 @media screen and (min-width: 900px) {
     .bars-btn {
@@ -446,7 +434,7 @@ footer li a:hover {
     }
 
     nav a:hover::after {
-        transform: scale(1,1);
+        transform: scale(1, 1);
     }
 
     #fixtures-button {
@@ -455,10 +443,10 @@ footer li a:hover {
         text-transform: uppercase;
         letter-spacing: 0.2rem;
         font-weight: 900;
-    
+
         padding: 2rem;
         margin: auto;
-    
+
         background-color: rgba(237, 183, 97, 0.5);
         position: absolute;
         text-align: center;
@@ -467,23 +455,22 @@ footer li a:hover {
     }
 
     .contact-us-box {
-        grid-template-columns: repeat(2, 1fr); 
-   }
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     .contact-us-right {
         height: 100%;
     }
 
-    .contact-us-container::after{
+    .contact-us-container::after {
         height: 90rem;
     }
 
 }
 
-@media (max-width: 800px) {
+@media screen and (min-width: 700px){
     .about-grid {
-        grid-template-columns:
-        repeat(auto-fit, minmax(320px, 1fr))
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
@@ -507,7 +494,7 @@ footer li a:hover {
     #fixtures-button {
         display: none;
     }
-} 
+}
 
 /* create level of zoom for animation for main image */
 
