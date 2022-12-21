@@ -146,6 +146,15 @@ nav a:hover {
 
 /* fixtures button on main image */
 
+#fixtures-button a {
+    text-decoration: none;
+    color: #363732;
+}
+
+#fixtures-button a:hover {
+    text-decoration: none;
+    color: #fff
+}
 
 /* about us page */
 
@@ -260,7 +269,7 @@ tr:nth-child(even) {
     left: 0;
     top: 0;
     width: 100%;
-    height: 90rem;
+    height: 100%;
     background: url(../images/football-pitch.jpg) no-repeat center;
     background-size: cover;
     z-index: -100;
@@ -270,7 +279,7 @@ tr:nth-child(even) {
 .contact-us-box {
     max-width: 90rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -279,7 +288,7 @@ tr:nth-child(even) {
 }
 
 .contact-us-right {
-    height: 100%;
+    height: 20rem;
     background: url(../images/map.png);
     background-size: cover;
 }
@@ -457,15 +466,18 @@ footer li a:hover {
         left: 15rem;
     }
 
-    #fixtures-button a {
-        text-decoration: none;
-        color: #363732;
+    .contact-us-box {
+        grid-template-columns: repeat(2, 1fr); 
+   }
+
+    .contact-us-right {
+        height: 100%;
     }
-    
-    #fixtures-button a:hover {
-        text-decoration: none;
-        color: #fff
+
+    .contact-us-container::after{
+        height: 90rem;
     }
+
 }
 
 @media (max-width: 800px) {
