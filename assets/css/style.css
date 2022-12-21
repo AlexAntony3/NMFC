@@ -135,7 +135,7 @@ nav a:hover {
 
 .main-image {
     height: auto;
-    max-width: 98.5%;
+    width: 100%;
     overflow: hidden;
     padding-top: 140px;
 
@@ -468,7 +468,7 @@ footer li a:hover {
 
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
     .about-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -484,7 +484,7 @@ footer li a:hover {
     }
 
     .table-span {
-        grid-column: span 2;
+        grid-column: span 3;
     }
 
     .trophy {
