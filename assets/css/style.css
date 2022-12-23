@@ -50,8 +50,9 @@ header {
     z-index: 2000;
 }
 
-.logo {
-    margin: 0;
+
+.logo img {
+    width: 25rem;
 }
 
 .nav-extend {
@@ -69,7 +70,7 @@ header {
 }
 
 .bars-btn {
-    font-size: 30px;
+    font-size: 2rem;
     position: absolute;
     top: 0;
     right: 0;
@@ -397,10 +398,6 @@ footer li a:hover {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
-    .logo {
-        grid-column: 2;
-    }
-
     nav {
         all: unset;
         grid-column: 5;
@@ -496,6 +493,17 @@ footer li a:hover {
     footer li {
         font-size: 5rem;
     }
+
+    .logo {
+        margin: 0;
+        grid-column: 2;
+    }
+
+    .bars-btn {
+        font-size: 3rem
+    }
+    
+
 }
 
 
