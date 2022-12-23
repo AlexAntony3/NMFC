@@ -103,11 +103,11 @@ For smaller screens a hamburger menu has been utilised for optimal usage when us
 
 Smaller Screen Navigation Bar:
 
-![Small Navigation Bar](docs/screenshot/navbar-open.jpg "Small Navigation Bar")
+![Small Navigation Bar](docs/screenshot/navbar-closed.jpg "Small Navigation Bar")
 
 Smaller Screen Navigation Bar Open:
 
-![Small Navigation Bar Open](docs/screenshot/navbar-closed.jpg "Small Navigation Bar Open")
+![Small Navigation Bar Open](docs/screenshot/navbar-open.jpg "Small Navigation Bar Open")
 
 Smaller Screen Navigation Hover:
 
