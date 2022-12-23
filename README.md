@@ -177,7 +177,7 @@ Large Screen footer view as well as hover effect
 
 Small Screen footer view
 
-![Small Screen Footer](docs/screenshot/small-footer.jpg "Small Screen Footer)
+![Small Screen Footer](docs/screenshot/small-footer.jpg "Small Screen Footer")
 
 ## Potential Future Implementations
 
