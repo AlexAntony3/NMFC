@@ -89,6 +89,8 @@ The wireframes are shown below:
 ---
 ## Features
 
+### Navigation Bar
+
 The first element that is noticed when you start the website is the navigation bar. The navigation bar is easy to use, functional and aesthetically pleasing. A hover effect has been implemented into the nav bar so that when hovering, a bar appears and the text is highlighted for a modern effect.
 
 Navigation Bar:
@@ -113,7 +115,27 @@ Smaller Screen Navigation Hover:
 
 ![Small Navigation Bar Hover](docs/screenshot/smallnavbar-hover.jpg "Small Navigation Bar Hover")
 
+### Home Page
 
+The next item that is identified by a user is the main image used. This is a picture of my football team taken from a previous tournament. This is a bright enticing image and gives the user an instant understanding of what the website is about, whilst also being able to see the team logo. I also included a box and link for upcoming fixtures as research shows that it is the main focal point as to why a user goes onto a football related website. To stick with the theme observed in the navigation, the same colours and hover effects are utilised. The colours used in this website is representative of the team kit colours. There is only one difference observed in the smaller screen version, which the lack of the fixtures button as it is easier to navigate using the hamburger icon. 
+
+Home Page:
+
+![Home Page](docs/screenshot/homepage.jpg "Home Page")
+
+### About Us page
+
+The about us page is the next section, which contains three images as well as the club values, club vision and manager. This is an important section as it allows a user to gain a deeper understanding of the website whilst not bombarding them with information. The about us page is responsive to different screen sizes which makes sure that the website is viewable and legible at all screen sizes. 
+
+About Us Page (Large Screen View)
+
+![About Us Page](docs/screenshot/about-us.jpg "About Us Page")
+
+About Us Page (mobile & Small screen view)
+
+![About Us Page Small Screen](docs/screenshot/about-us-small.jpg "About Us Page Small Screen")
+
+### Match Details
 ---
 ## Technologies used
 ---
