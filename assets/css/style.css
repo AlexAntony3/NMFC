@@ -50,9 +50,15 @@ header {
     z-index: 2000;
 }
 
+.logo {
+    margin: 0;
+    grid-column: 1;
+}
 
 .logo img {
     width: 25rem;
+    padding: 0%;
+    margin: 0;
 }
 
 .nav-extend {
@@ -138,7 +144,7 @@ nav a:hover {
     height: auto;
     width: 98.5%;
     overflow: hidden;
-    padding-top: 140px;
+    padding-top: 10rem;
 
     /* animation effect */
     animation-name: main-zoom;
@@ -498,14 +504,19 @@ footer li a:hover {
         margin: 0;
         grid-column: 2;
     }
+    
+    .logo img {
+        width: 32rem;
+    }
 
     .bars-btn {
         font-size: 3rem
     }
 
-
+    .main-image {
+        padding-top: 130px;
+    }
 }
-
 
 @media (max-width: 900px) {
 
