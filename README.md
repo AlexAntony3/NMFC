@@ -17,10 +17,10 @@ Welcome to the NMFC, the top South indian football team in Newcastle Upon Tyne. 
 ### User's Stories
 * As a user, I want to be able to navigate to any section of the website easily. 
 * As a user, I want to be able to contact the Team.
-* As a usere, I want to be able to see the upcoming tournaments/ training sessions. 
+* As a usere, I want to be able to see the upcoming tournaments. 
 * As a user, I want to be able to be directed to the team social media. 
-* As a user, I want to be provided with information about the team and how it was founded.
-* As a user, I want to be able to see a gallery of photos of games as well as a team photo. 
+* As a user, I want to be provided with information about the team and manager.
+* As a user, I want to be able to see photos of games as well as a team photo. 
 
 ### Site Owners Goals
 * Draw attention to the Team.
