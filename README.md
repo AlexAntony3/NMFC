@@ -147,7 +147,7 @@ Match Details Page (Small Screen View)
 
 ![Small Match Details Screen](docs/screenshot/matches-mobile.jpg "Small Match Details Screen")
 
-###Contact Us Page
+### Contact Us Page
 
 The contact us section is a pivotal aspect of the website as it is the fastest and best for a user to get in contact with the club. The contact us section contains all required fields and a map on to help a user find the training/meeting grounds. The background used is a blurred image of a football pitch, keeping to the relevance of the website. Furthermore, validation is added to make sure all details are added so that it fasilitates the process of contacting either party. This section is also mobile friendly as the image of the map is presented directly below the contact us section. 
 
@@ -167,7 +167,24 @@ The submission for contact us page is then directed to a dummy thank you page.
 
 ![Thank You Page](docs/screenshot/thankyou.jpg "Thank You Page")
 
+### Footer 
 
+The footer is the final component to the webpage, this would be the hypothetical area in which the user would be able to access the various social media platforms for the team and offers another means of communication to the team. To keep consistency and balance, a hover effect was also implemented to this section which reflects what is observed in the navigation and other links throughout the website. The footer was made mobile friendly by decreasing the size of the icons used. Furthermore, a copyright was also added at the bottom left of the page. 
+
+Large Screen footer view as well as hover effect
+
+![Large Screen footer](docs/screenshot/footer.jpg "Large Footer")
+
+Small Screen footer view
+
+![Small Screen Footer](docs/screenshot/small-footer.jpg "Small Screen Footer)
+
+## Potential Future Implementations
+
+* With more time and resource, I would like to be able to collect the data provided by users into a database
+* With more time and resource, I would like to implement further pages in which job notifications, headlines and vacancies can be presented.
+* With more time and resource, I would improve the contact us interface for when mobile devices are being used as the web page zooms in and it is not aesthetically pleasing. From research, it appears that this is possible through JavaScript, which I have not covered yet.
+* With more time and resource, I would want to have a shop selling club related items. 
 
 ---
 ## Technologies used
