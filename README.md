@@ -136,6 +136,19 @@ About Us Page (mobile & Small screen view)
 ![About Us Page Small Screen](docs/screenshot/about-us-small.jpg "About Us Page Small Screen")
 
 ### Match Details
+
+The Match details section would be one of the most most visited aspects of the website as users would want to know the recent form of the team as well as upcoming matches to see how regularly the team play. A key detail in this section is that a game in which the team lost is highlighted in red tone which is complimentary to the other colours on the page. This page is also compatible with smaller devices and the image of the trophy is removed as the match history information is more important and having the image on its own does not suit the simplicity of the website. 
+
+Match Details Page (Large Screen View)
+
+![Match Details Screen](docs/screenshot/matches.jpg "Match Details Screen")
+
+Match Details Page (Small Screen View)
+
+![Small Match Details Screen](docs/screenshot/matches-mobile.jpg "Small Match Details Screen")
+
+
+
 ---
 ## Technologies used
 ---
