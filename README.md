@@ -179,6 +179,8 @@ Small Screen footer view
 
 ![Small Screen Footer](docs/screenshot/small-footer.jpg "Small Screen Footer")
 
+---
+
 ## Potential Future Implementations
 
 * With more time and resource, I would like to be able to collect the data provided by users into a database
@@ -193,13 +195,17 @@ Small Screen footer view
 * HTML
 * CSS
 ### Tools
-* [Fontawesome](https://fontawesome.com/ "Font Awesome")
 * [Coolers](https://coolors.co/ "Coolors")
 * [Photopea](https://www.photopea.com/ "Photopea")
-* [Google Fonts](https://fonts.google.com/ "Google Fonts")
-* [Unsplash](https://unsplash.com/ "Unsplash")
 * [W3C Markup Validation](https://validator.w3.org/ "W3C Markup Validation")
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/ "W3C CSS validation")
+* [Git](https://git-scm.com/ "Git")
+* [GitHub](https://github.com/ "GitHub")
+* [GitPod](https://www.gitpod.io/ "GitPod")
+### Libraries
+* [Fontawesome](https://fontawesome.com/ "Font Awesome")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Unsplash](https://unsplash.com/ "Unsplash")
 ---
 ## Testing
 
