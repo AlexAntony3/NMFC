@@ -92,17 +92,25 @@ The wireframes are shown below:
 The first element that is noticed when you start the website is the navigation bar. The navigation bar is easy to use, functional and aesthetically pleasing. A hover effect has been implemented into the nav bar so that when hovering, a bar appears and the text is highlighted for a modern effect.
 
 Navigation Bar:
+
 ![Navigation Bar](docs/screenshot/nav-bar.jpg "Navigation Bar")
+
 Navigation Bar Hover: 
+
 ![Navigation Bar Hover](docs/screenshot/navbar-select.jpg "Navigation Bar Hover")
 
 For smaller screens a hamburger menu has been utilised for optimal usage when using fingers/stylus' to access the webpage. This hamburger menu also highlights for small laptop users as well as this, the menu button opens and closes for ease of navigation. 
 
 Smaller Screen Navigation Bar:
+
 ![Small Navigation Bar](docs/screenshot/navbar-open.jpg "Small Navigation Bar")
+
 Smaller Screen Navigation Bar Open:
+
 ![Small Navigation Bar Open](docs/screenshot/navbar-closed.jpg "Small Navigation Bar Open")
+
 Smaller Screen Navigation Hover:
+
 ![Small Navigation Bar Hover](docs/screenshot/smallnavbar-hover.jpg "Small Navigation Bar Hover")
 
 
