@@ -15,12 +15,12 @@ Welcome to the NMFC, the top South indian football team in Newcastle Upon Tyne. 
 * Valuable content.
 
 ### User's Stories
-* From a user's perspective, I want to be able to navigate to any section of the website easily. 
-* From a user's perspective, I want to be able to contact the Team.
-* From a user's perspective, I want to be able to see the upcoming tournaments/ training sessions. 
-* From a user's perspective, I want to be able to be directed to the team social media. 
-* From a user's perspective, I want to be provided with information about the team and how it was founded.
-* From a user's perspective, I want to be able to see a gallery of photos of games as well as a team photo. 
+* As a user, I want to be able to navigate to any section of the website easily. 
+* As a user, I want to be able to contact the Team.
+* As a usere, I want to be able to see the upcoming tournaments/ training sessions. 
+* As a user, I want to be able to be directed to the team social media. 
+* As a user, I want to be provided with information about the team and how it was founded.
+* As a user, I want to be able to see a gallery of photos of games as well as a team photo. 
 
 ### Site Owners Goals
 * Draw attention to the Team.
@@ -36,7 +36,7 @@ Welcome to the NMFC, the top South indian football team in Newcastle Upon Tyne. 
 * I expect the user to be able to see upcoming fixtures and tournaments.
 
 ### Requirements
-* Tbere must be numerous pixtures of the team and especially a main picture of the entire team. 
+* There must be numerous pixtures of the team and especially a main picture of the entire team. 
 * The website must be minimalistic and modern.
 * When contacting the team, all required information must be filled in. If it is not, an error message must be supplied.
 * The pages must be consistent throughout. 
