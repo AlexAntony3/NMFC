@@ -224,6 +224,10 @@ When conducting testing, the following issues were identified and resolved:
 * Final W3C CSS validation was completed the following results were observed:
 ![CSS validation](docs/screenshot/css-validation.jpg "CSS validation")
 * Final lighthouse test was completed and the following results were observed:
+** Desktop
+![Desktop lighthouse validation](docs/screenshot/desktop-validation.jpg "Desktop Validation")
+** Mobile
+![Mobile lighthouse validation](docs/screenshot/mobile-lighthouse.jpg "Mobile validation")
 
 
 ---
