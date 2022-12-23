@@ -195,19 +195,14 @@ nav a:hover {
 
 .table-container {
     display: grid;
-    padding: 1rem;
     text-align: center;
-    max-width: 90%;
-    margin-inline: auto;
-    padding-inline: 2rem;
+    grid-template-columns: 1fr;
+    padding: 1rem;
 }
+
 
 caption {
     padding: 1rem;
-}
-
-.table-span {
-    grid-column: span 2;
 }
 
 table {
@@ -455,6 +450,20 @@ footer li a:hover {
         z-index: 100;
     }
 
+    .table-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem;
+        text-align: center;
+        margin-inline: auto;
+        padding-inline: 2rem;
+        max-width: 90%;
+    }
+
+    .table-span {
+        grid-column: span 2;
+    }
+
     .contact-us-box {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -481,17 +490,6 @@ footer li a:hover {
 
 
 @media (max-width: 900px) {
-
-    .table-container {
-        display: grid;
-        padding: 10px;
-        text-align: center;
-        grid-template-columns: 1fr minmax(320px, 600px) 1fr;
-    }
-
-    .table-span {
-        grid-column: span 3;
-    }
 
     .trophy {
         display: none;
