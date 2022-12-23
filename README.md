@@ -219,8 +219,10 @@ When conducting testing, the following issues were identified and resolved:
 * When hovering over the different fields in the contact form, there wasn't any indication that it was the field that the mouse was over. Therefore to solve this, I added a lighter tone than the box. This improved the user interface.
 * Only a hover effect was initially used over the navigation items. When I reviewed other webpages, i noticed that there was more of an indication that a nev element was hightlighted. I added a line underneath each section when highlighted for a better user interface.
 * When I used the markup validation an error was identified that stated "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed" as a heading is not required for the main image, the section element was changed to div. 
-* Final W3C Markup validation was completed and the following results were observed:
-![Markup Validation](docs/screenshot/html-validation.jpg "Markup Validation")
+* Final W3C Markup validation was completed for index.html and the following results were observed:
+![Index Markup Validation](docs/screenshot/html-validation.jpg "Index Markup Validation")
+* Final W3C Markup validation was completed for the thankyou.html and the following results were observed:
+![Thankyou Validation](docs/screenshot/thankyou-validation.jpg "Thankyou Validation")
 * Final W3C CSS validation was completed the following results were observed:
 ![CSS validation](docs/screenshot/css-validation.jpg "CSS validation")
 * Final lighthouse test was completed and the following results were observed:
