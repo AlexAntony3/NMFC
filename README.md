@@ -147,6 +147,26 @@ Match Details Page (Small Screen View)
 
 ![Small Match Details Screen](docs/screenshot/matches-mobile.jpg "Small Match Details Screen")
 
+###Contact Us Page
+
+The contact us section is a pivotal aspect of the website as it is the fastest and best for a user to get in contact with the club. The contact us section contains all required fields and a map on to help a user find the training/meeting grounds. The background used is a blurred image of a football pitch, keeping to the relevance of the website. Furthermore, validation is added to make sure all details are added so that it fasilitates the process of contacting either party. This section is also mobile friendly as the image of the map is presented directly below the contact us section. 
+
+Contact Us Page (Large Screen View)
+
+![Contact Us Screen](docs/screenshot/contact.jpg "Contact Us Screen")
+
+Contact Us Page (Small Screen View)
+
+![Contact Us Small Screen](docs/screenshot/contact-mobile.jpg "Contact Us Mobile")
+
+Contact Us Page (Field Validation)
+
+![Contact Us Validation](docs/screenshot/contact-validation.jpg "Contact Us Validation")
+
+The submission for contact us page is then directed to a dummy thank you page.
+
+![Thank You Page](docs/screenshot/thankyou.jpg "Thank You Page")
+
 
 
 ---
