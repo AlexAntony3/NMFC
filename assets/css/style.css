@@ -246,7 +246,6 @@ tr:nth-child(even) {
     border-radius: 20%;
 }
 
-
 /* contact us page */
 
 .contact-us-container {
@@ -373,6 +372,17 @@ Footer li a {
 
 footer li a:hover {
     color: #fff;
+}
+
+/* thank you page */
+
+#thankyou {
+    background-color: rgba(192, 199, 98, 0.5);
+}
+
+#thankyoumessage {
+    position: absolute;
+    margin-top: 20rem;
 }
 
 /* media queries */
