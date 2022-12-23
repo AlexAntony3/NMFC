@@ -50,16 +50,16 @@ For the social media links, all icons was attained using [Fontawesome](https://f
 
 Header and navigational elements uses the Roboto medium 500 font and paragraph elements use the Roboto thin 300. Both the sizes of Roboto are complimentary to each other whilst still being able to see a clear difference between them. 
 ### Colour Scheme
-![Colour Pallet](assets/images/colour-pallete-pp1.png)
+![Colour Pallet](docs/screenshot/colour-pallete-pp1.png "Colour Pallet")
 
 The above image shows the colour scheme that has been decided for the website. I have used [Coolers](https://coolors.co/) to help me pick my pallet and the reason these colours have been selected is to represent and match the colour scheme of the team kit. 
 
 | Colour  | Use |
 | ------  | --- |
 | #363732 | This colour will be used for the text and border colour for images. |
-| #F7A278 | This Colour will be used for styling of the contact form. |
-| #FAFFD8 | This colour will be used for the background and as contrasting text colour. |
-| #8D99AE | This colour will be used for the header, navigation and footer. |
+| #C0C762 | This Colour will be used for styling of the about us section. |
+| #FFFFFF | This colour will be used for the background for some sections |
+| #EDB761| This colour will be used for the header, navigation and footer. |
 
 ### Logo
 The logo was created using [Photopea](https://www.photopea.com/ "Photopea"). I was able to create a simple and eyecatching logo. The logo also uses the Roboto Font for consistency, it is also coloured in #363732 to match the theme of the website. Furthermore, this logo will be present in all pages in the website in the header. 
