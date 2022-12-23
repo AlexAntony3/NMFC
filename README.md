@@ -80,14 +80,32 @@ These breakpoints were selected with the aid of information provided from [Lambd
 To create the wireframe prototypes for a large, medium and small screens, Balsamiq was used. 
 The wireframes are shown below:
 
-[Large Screen](wireframes/balsamiq/desktop-view.png)
+[Large Screen](docs/wireframes/desktop-view.png "Large Screen")
 
-[Medium Screen](wireframes/balsamiq/ipad-view.png)
+[Medium Screen](docs/wireframes/ipad-view.png "Medium Screen")
 
-[Small Screen](wireframes/balsamiq/iphone-view.png)
+[Small Screen](docs/wireframes/iphone-view.png "Small Screen")
 
 ---
 ## Features
+
+The first element that is noticed when you start the website is the navigation bar. The navigation bar is easy to use, functional and aesthetically pleasing. A hover effect has been implemented into the nav bar so that when hovering, a bar appears and the text is highlighted for a modern effect.
+
+Navigation Bar:
+![Navigation Bar](docs/screenshot/nav-bar.jpg "Navigation Bar")
+Navigation Bar Hover: 
+![Navigation Bar Hover](docs/screenshot/navbar-select.jpg "Navigation Bar Hover")
+
+For smaller screens a hamburger menu has been utilised for optimal usage when using fingers/stylus' to access the webpage. This hamburger menu also highlights for small laptop users as well as this, the menu button opens and closes for ease of navigation. 
+
+Smaller Screen Navigation Bar:
+![Small Navigation Bar](docs/screenshot/navbar-open.jpg "Small Navigation Bar")
+Smaller Screen Navigation Bar Open:
+![Small Navigation Bar Open](docs/screenshot/navbar-closed.jpg "Small Navigation Bar Open")
+Smaller Screen Navigation Hover:
+![Small Navigation Bar Hover](docs/screenshot/smallnavbar-hover.jpg "Small Navigation Bar Hover")
+
+
 ---
 ## Technologies used
 ---
