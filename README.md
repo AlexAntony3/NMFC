@@ -237,7 +237,7 @@ When conducting testing, the following issues were identified and resolved:
 ## Deployments
 Post completion of coding, the project was added, committed and pushed to github. The github repository was made live completing the following steps:
 
- Click on the **project repository**.
+* Click on the **project repository**.
 
 * Then click on the **settings** section.
 
