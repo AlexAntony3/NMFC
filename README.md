@@ -164,7 +164,7 @@ Contact Us Page (Field Validation)
 
 ![Contact Us Validation](docs/screenshot/contact-validation.jpg "Contact Us Validation")
 
-The submission for contact us page is then directed to a dummy thank you page.
+The submission for contact us page is then directed to a dummy thank you page. This page contains a brief message stating that the information has been received and that the user will automatically be redirected back to the home page in 5 seconds. If however the user does not want to wait 5 seconds, they can click on the home button icon to get back faster. The home button icon also follows the same theme and when hovered, highlights as #fff. 
 
 ![Thank You Page](docs/screenshot/thankyou.jpg "Thank You Page")
 
