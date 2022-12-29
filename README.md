@@ -247,7 +247,7 @@ Post completion of coding, the project was added, committed and pushed to github
 
 * Select the branch `Main/ (root)` and press **save**.
 
-* The website is live on the following link: https://YOURUSERNAME.github.io/YOURPROJECTNAME/
+* The website is live on the following link: `https://YOURUSERNAME.github.io/YOURPROJECTNAME/`
 
 * Any future changes can be completed by **adding**, **committing** and **pushing** updates to github
 ---
