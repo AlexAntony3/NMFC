@@ -254,6 +254,7 @@ Post completion of coding, the project was added, committed and pushed to github
 ## Credits
 * [Simen Daehlin](https://www.linkedin.com/in/simendaehlin/) - Assistance throughout the project
 * [Kevin Powell](https://www.youtube.com/@KevinPowell) - Navigation bar formatting and CSS grid 
+* [Unsplash](https://unsplash.com/ "Unsplash") - Media used for the contact us background image
 ---
 ## Inspirations
 * [Cardiff City FC](https://www.cardiffcityfc.co.uk/)
