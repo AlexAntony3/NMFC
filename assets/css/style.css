@@ -398,12 +398,12 @@ footer p {
 
 #thankyoumessage {
     position: absolute;
-    margin-top: 20rem;
+    margin-top: 12rem;
 }
 
 #thankyoumessage i {
     font-size: 5rem;
-    margin-left: 50%;
+    margin-left: 45%;
     text-decoration: none;
     color: var(--nav-bg);
 }
