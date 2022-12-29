@@ -66,7 +66,7 @@ The above image shows the colour scheme that has been decided for the website. I
 The logo was created using [Photopea](https://www.photopea.com/ "Photopea"). I was able to create a simple and eyecatching logo. The logo also uses the Roboto Font for consistency, it is also coloured in #363732 to match the theme of the website. Furthermore, this logo will be present in all pages in the website in the header. 
 
 ### Breakpoints
-3 breakpoints have been decided to be implemented into the website. 
+3 breakpoints have been selected to which the website must be compatible. These breakpoints may not be used as the limits for media queries however it is vital that all information is presented clearly in these screen sizes and at a minimum of 320 px.  
 
 |                |Size                             
 |----------------|-----------------------------
