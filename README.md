@@ -53,7 +53,7 @@ Header and navigational elements uses the Roboto medium 500 font and paragraph e
 ### Colour Scheme
 ![Colour Pallet](docs/screenshot/colour-pallete-pp1.png "Colour Pallet")
 
-The above image shows the colour scheme that has been decided for the website. I have used [Coolers](https://coolors.co/) to help me pick my pallet and the reason these colours have been selected is to represent and match the colour scheme of the team kit. 
+The above image shows the colour scheme that has been decided for the website. I have used [Coolers](https://coolors.co/ "Coolers") to help me pick my pallet and the reason these colours have been selected is to represent and match the colour scheme of the team kit. 
 
 | Colour  | Use |
 | ------  | --- |
