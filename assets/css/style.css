@@ -30,7 +30,8 @@ body {
 /* logo and headings */
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     color: var(--text-color);
