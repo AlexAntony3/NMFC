@@ -401,6 +401,17 @@ footer p {
     margin-top: 20rem;
 }
 
+#thankyoumessage i {
+    font-size: 5rem;
+    margin-left: 50%;
+    text-decoration: none;
+    color: var(--nav-bg);
+}
+
+#thankyoumessage i:hover {
+    color: #fff;
+}
+
 /* media queries */
 
 @media screen and (min-width: 900px) {
