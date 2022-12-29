@@ -401,11 +401,6 @@ footer p {
     margin-top: 20rem;
 }
 
-#return {
-    font-size: 10rem;
-    text-decoration: none;
-}
-
 /* media queries */
 
 @media screen and (min-width: 900px) {
