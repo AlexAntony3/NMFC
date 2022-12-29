@@ -371,7 +371,7 @@ footer li {
     font-size: 3rem;
 }
 
-Footer li a {
+footer li a {
     text-decoration: none;
     color: var(--text-color);
     margin: 0 4rem;
