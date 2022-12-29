@@ -191,7 +191,6 @@ Small Screen footer view
 
 ---
 ## Technologies used
----
 ### Langugages
 * HTML
 * CSS
@@ -232,6 +231,7 @@ When conducting testing, the following issues were identified and resolved:
     * Mobile
 ![Mobile lighthouse validation](docs/screenshot/mobile-lighthouse.jpg "Mobile validation")
 
+On reflection of the website, it is clear that all user stories and requirements for the website have been met. 
 
 ---
 ## Deployments
